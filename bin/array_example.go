@@ -1,6 +1,11 @@
 /*
+  Arrays is a collection of same elements stored in sequential order.
 
- */
+  Note: a bug in this programs points out that it is hard to add and
+  remove objects in array without reindexing the array.
+
+  best to use arrays for fixed data sets.
+*/
 package main
 
 import (
