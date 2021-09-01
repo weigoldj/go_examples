@@ -1,6 +1,15 @@
 # go_examples
 Go Lang Examples
 
+## Setup GOlang
+Go to [golang.org](https://golang.org/) to download and install go.  See the instructions
+on the site.  But you should do something like the following.
+```
+wget https://golang.org/dl/go1.17.linux-amd64.tar.gz
+mkdir /usr/local/go 
+sudo tar -C /usr/local -xzf go1.17.linux-amd64.tar.gz
+echo export PATH=/usr/local/go/bin:$PATH >> ~/.bashrc 
+```
 
 ## GitLab Setup
 Setup your Persnal Access Token in GitLab
@@ -27,6 +36,14 @@ $ git config --system --unset credential.helper
 
 verify your credentials 
 git pull -v
+
+## Pro GOlang
+* Compiled
+* Concurrency built in
+* designed to be readable and usable
+* can compile for different OS
+* philosophy is "one problem one solution"
+
 
 Go Examples
 ---
