@@ -1,5 +1,15 @@
 package main
 
+// one way - declare and assign (2 steps)
+// var firstNumber int
+// 	firstNumber = 2
+
+// declare type name and assign value
+//	var secondNumber = 5
+
+// one step varible
+//	subtraction := 7
+
 import (
 	"bufio"
 	"fmt"
