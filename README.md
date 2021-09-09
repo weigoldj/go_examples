@@ -45,6 +45,3 @@ git pull -v
 * philosophy is "one problem one solution"
 
 
-Go Examples
----
-[hello.go](./bin/hello)

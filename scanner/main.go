@@ -28,7 +28,7 @@ func exists(path string) (bool, error) {
 }
 
 func iterate(path string) {
-	fmt.Printf("dir ", path)
+	fmt.Printf("dir %s, %s", path, info.name)
 	filepath.Walk(path, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			log.Fatalf(err.Error())
