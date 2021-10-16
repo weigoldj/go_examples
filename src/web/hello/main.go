@@ -6,8 +6,11 @@ import (
 	"net/http"
 )
 
+// handler function
 func home(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hello World Quinn")
+	html := "<strong>Hello World</strong>"
+	w.Header().Set("Content-Type", "text/html")
+	fmt.Fprint(w, html)
 }
 
 func main() {
