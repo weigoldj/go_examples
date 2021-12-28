@@ -1,5 +1,8 @@
 /*
   flag provides command-line options capability.
+  example:
+	> go run cmd_options --help
+	> go run cmd_options -env test
 */
 package main
 

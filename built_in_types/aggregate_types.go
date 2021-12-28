@@ -33,7 +33,7 @@ func main() {
 		BucketSeats:   true,
 		Model:         "Mustang",
 		Make:          "Ford",
-		year:          1968,
+		year:          2001,
 	}
 	log.Println(myCar)
 }
