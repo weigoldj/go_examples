@@ -28,12 +28,12 @@ func exists(path string) (bool, error) {
 }
 
 func iterate(path string) {
-	fmt.Printf("dir %s, %s", path, info.name)
+	fmt.Printf("dir %s", path)
 	filepath.Walk(path, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			log.Fatalf(err.Error())
 		}
-		fmt.Printf("File Name: %s, ext: %s \n", info.Name(), filepath.Ext(info.Name()))
+		// sfmt.Printf("File Name: %s, ext: %s \n", info.Name(), filepath.Ext(info.Name()))
 		return nil
 	})
 }
