@@ -15,16 +15,16 @@ func main() {
 	p(now)
 
 	// get day of week from a date
-	ava_date := Date(2005, int(time.December), 11)
+	ava_date := Date(2000, int(time.December), 11)
 	p(ava_date.Weekday())
 
-	mattaus_date := Date(2010, int(time.October), 2)
+	mattaus_date := Date(2000, int(time.October), 2)
 	p(mattaus_date.Weekday())
 
-	johann_date := Date(1968, int(time.August), 9)
+	johann_date := Date(2000, int(time.August), 9)
 	p(johann_date.Weekday())
 
-	dani_date := Date(1966, int(time.March), 23)
+	dani_date := Date(2000, int(time.March), 23)
 	p("Dani ", dani_date.Format(layout), " ", dani_date.Weekday())
 	p("Dani ", dani_date.Format(layout2), " ", dani_date.Weekday())
 
